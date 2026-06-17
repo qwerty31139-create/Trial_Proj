@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requirements to ADO Artifacts - System</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <h1>📋 Requirements to ADO Artifacts</h1>
+                <p class="subtitle">Convert stakeholder requirements into structured engineering artifacts</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Step 1: Input -->
+            <section class="step" id="input-step">
+                <div class="step-header">
+                    <h2>📝 Step 1: Enter Requirements</h2>
+                </div>
+                <div class="input-form">
+                    <textarea 
+                        id="requirement-input"
+                        placeholder="Enter your stakeholder requirement here. Example:&#10;'We need a user authentication system with multi-factor authentication, supporting email, SMS, and authenticator apps.'"
+                        rows="8"
+                    ></textarea>
+                    <div class="form-options">
+                        <label>
+                            <input type="checkbox" id="auto-sync" checked> Auto-sync to Azure DevOps
+                        </label>
+                        <label>
+                            <input type="checkbox" id="include-diagram"> Include Architecture Diagram
+                        </label>
+                    </div>
+                    <button id="process-btn" class="btn btn-primary">🚀 Process Requirement</button>
+                </div>
+            </section>
+
+            <!-- Step 2: Preview -->
+            <section class="step" id="preview-step" style="display: none;">
+                <div class="step-header">
+                    <h2>👁️ Step 2: Review Artifacts</h2>
+                </div>
+                <div id="preview-content" class="preview-content">
+                    <!-- Dynamic content will be inserted here -->
+                </div>
+            </section>
+
+            <!-- Step 3: Sync Status -->
+            <section class="step" id="sync-step" style="display: none;">
+                <div class="step-header">
+                    <h2>🔄 Step 3: Azure DevOps Sync</h2>
+                </div>
+                <div id="sync-content" class="sync-content">
+                    <!-- Sync status will be displayed here -->
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Requirements to ADO Artifacts System v1.0 | <a href="/docs">API Documentation</a></p>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
