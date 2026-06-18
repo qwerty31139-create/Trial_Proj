@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "h5MhMB+D9kc=",
+  "success": true,
+  "projectFilePath": "/workspaces/Trial_Proj/dotnet-app/dotnet-app.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.openapi/10.0.4/microsoft.aspnetcore.openapi.10.0.4.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
