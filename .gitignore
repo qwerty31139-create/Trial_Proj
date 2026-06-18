@@ -16,3 +16,10 @@ node_modules/
 coverage/
 .coverage
 htmlcov/
+
+# Python project files (archived)
+backend/
+config/
+tests/
+requirements.txt
+.env.example
